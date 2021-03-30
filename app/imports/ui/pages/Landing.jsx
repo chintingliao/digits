@@ -9,19 +9,19 @@ class Landing extends React.Component {
         <Grid id='landing-page' container centered stackable columns={3}>
 
           <Grid.Column textAlign='center'>
-            <Icon size="huge" name="users" inverted></Icon>
+            <Icon size="huge" name="users" inverted />
             <Header as='h1' inverted>Multiple Users</Header>
             <Header as='h3' inverted>This address book allows any number of users to register and save their business contacts. You can only see the contacts you have created.</Header>
           </Grid.Column>
 
           <Grid.Column textAlign='center'>
-            <Icon size="huge" name="file alternate" inverted></Icon>
+            <Icon size="huge" name="file alternate" inverted />
             <Header as='h1' inverted>Contact Details</Header>
             <Header as='h3' inverted>For each contact, you can save their name, address, and phone number.</Header>
           </Grid.Column>
 
           <Grid.Column textAlign='center'>
-            <Icon size="huge" name="calendar check" inverted></Icon>
+            <Icon size="huge" name="calendar check" inverted />
             <Header as='h1' inverted>Timestamped Notes</Header>
             <Header as='h3' inverted>Each time you make contact with a contact, you can write a note that summarizes the conversation. This note is saved along with a timestamp and the contact.</Header>
           </Grid.Column>
