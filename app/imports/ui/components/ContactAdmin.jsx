@@ -35,7 +35,7 @@ ContactAdmin.propTypes = {
     lastName: PropTypes.string,
     address: PropTypes.string,
     description: PropTypes.string,
-    image: PropTypes.image,
+    image: PropTypes.string,
     owner: PropTypes.string,
   }).isRequired,
 };
