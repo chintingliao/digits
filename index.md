@@ -1,3 +1,5 @@
+##digits
+
 <img src="doc/landing.png">
 
 Digits is an application that allows users to:
@@ -5,7 +7,9 @@ Digits is an application that allows users to:
 Register an account.
 Create and manage a set of contacts.
 Add a set of timestamped notes regarding their interactions with each contact.
-Installation
+
+
+#Installation
 First, install Meteor.
 
 Second, download a copy of Digits. Note that Digits is a private repo and so you will need to request permission from the author to gain access to the repo.
@@ -49,6 +53,7 @@ W20180305-18:06:02.806(-10)? (STDERR)   meteor npm install --save bcrypt
 W20180305-18:06:02.806(-10)? (STDERR) 
 W20180305-18:06:02.806(-10)? (STDERR) in the root directory of your application.
 
+
 Note regarding bcrypt warning. You will also get the following message when you run this application:
 
 Note: you are using a pure-JavaScript implementation of bcrypt.
@@ -59,6 +64,10 @@ In order to use the native implementation instead, run
   meteor npm install --save bcrypt
 
 in the root directory of your application.
+
+
+
+
 On some operating systems (particularly Windows), installing bcrypt is much more difficult than implied by the above message. Bcrypt is only used in Meteor for password checking, so the performance implications are negligible until your site has very high traffic. You can safely ignore this warning without any problems during initial stages of development.
 
 If all goes well, the template application will appear at http://localhost:3000. You can login using the credentials in settings.development.json, or else register a new account.
@@ -66,7 +75,9 @@ If all goes well, the template application will appear at http://localhost:3000.
 Lastly, you can run ESLint over the code in the imports/ directory with:
 
 meteor npm run lint
-User Interface Walkthrough
+
+
+#User Interface Walkthrough
 Landing Page
 When you first bring up the application, you will see the landing page that provides a brief introduction to the capabilities of Digits:
 <img src="doc/landing.png">
