@@ -13,12 +13,15 @@ Second, download a copy of Digits. Note that Digits is a private repo and so you
 Third, cd into the app directory install the required libraries with:
 
 $ meteor npm install
+
 Once the libraries are installed, you can run the application by invoking:
 
 $ meteor npm run start
+
 The first time you run the app, it will create some default users and data. Here is the output:
 
 meteor npm run start
+
 
 > meteor-application-template-react@ start /Users/philipjohnson/github/philipmjohnson/digits/app
 > meteor --no-release-check --settings ../config/settings.development.json
