@@ -1,4 +1,4 @@
-## digits
+### digits
 
 <img src="doc/landing.png">
 
@@ -92,7 +92,7 @@ Lastly, you can run ESLint over the code in the imports/ directory with:
 meteor npm run lint
 
 
-#User Interface Walkthrough
+**User Interface Walkthrough**
 
 Landing Page
 When you first bring up the application, you will see the landing page that provides a brief introduction to the capabilities of Digits:
