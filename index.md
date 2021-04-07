@@ -106,7 +106,7 @@ If you do not yet have an account on the system, you can register by clicking on
 
 Sign in
 Click on the Login link, then click on the Signin link to bring up the Sign In page which allows you to login:
-<img src="doc/login.png">
+<img src="doc/Login.png">
 
 
 User home page
