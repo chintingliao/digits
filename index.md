@@ -1,3 +1,5 @@
+<img src="doc/landing.png">
+
 ![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/landing-page.png)
 
 Meteor-application-template-react is a sample Meteor 2.0 application that illustrates:
