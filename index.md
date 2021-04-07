@@ -1,4 +1,4 @@
-##digits
+## digits
 
 <img src="doc/landing.png">
 
